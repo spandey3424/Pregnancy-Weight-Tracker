@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">Pregnancy</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="state_names">
+
+        <item>Andhra Pradesh</item>
+        <item>Arunachal Pradesh </item>
+        <item>Assam </item>
+        <item>Bihar</item>
+        <item>Chhattisgarh</item>
+        <item>Goa</item>
+        <item>Gujarat</item>
+        <item>Andaman and Nicobar Islands</item>
+        <item>Chandigarh</item>
+        <item>Dadar and Nagar Haveli</item>
+        <item>Daman and Diu</item>
+        <item>Delhi</item>
+        <item>Lakshadweep</item>
+        <item>Haryana</item>
+        <item>Himachal Pradesh</item>
+        <item>Jammu and Kashmir</item>
+        <item>Jharkhand</item>
+        <item>Karnataka</item>
+        <item>Kerala</item>
+        <item>Madhya Pradesh</item>
+        <item>Maharashtra</item>
+        <item>Manipur</item>
+        <item>Meghalaya</item>
+        <item>Mizoram</item>
+        <item>Nagaland</item>
+        <item>Odisha</item>
+        <item>Punjab</item>
+        <item>Rajasthan</item>
+        <item>Sikkim</item>
+        <item>Tamil Nadu</item>
+        <item>Telangana</item>
+        <item>Tripura</item>
+        <item>Uttar Pradesh</item>
+        <item>Uttarakhand</item>
+        <item>West Bengal</item>
+        <item>Puducherry (Pondicherry)</item>
+
+
+    </string-array>
+    <string-array name="blood_grp">
+
+        <item> A+ </item>
+        <item> B+ </item>
+        <item> A- </item>
+        <item> B- </item>
+        <item> AB+ </item>
+        <item> AB- </item>
+        <item> O+ </item>
+        <item> O -</item>
+    </string-array>
+
+    <string-array name="maritalstatus_grp">
+
+        <item> Married </item>
+        <item> Single </item>
+        <item> Divorced </item>
+
+    </string-array>
+
+</resources>
+
+

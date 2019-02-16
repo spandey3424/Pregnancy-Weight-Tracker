@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddWomenActivity"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_person_black_24dp"
+            android:id="@+id/dp"/>
+
+        <Button
+            android:id="@+id/cam"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/dp"
+            android:layout_alignEnd="@+id/dp"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="-10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/ic_menu_camera" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_weight="1"
+            android:layout_below="@+id/dp"
+            android:background="#ffff" />
+
+
+
+    </RelativeLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/firstname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawablePadding="15dp"
+                android:hint=" First Name"
+                android:inputType="textPersonName"
+                android:textColor="#ffff"
+                android:textColorHint="#ffff"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/middlename"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawablePadding="15dp"
+                android:hint=" Middle Name"
+                android:inputType="textPersonName"
+                android:textColor="#ffff"
+                android:textColorHint="#ffff"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/lastname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawablePadding="15dp"
+                android:hint=" Last Name"
+                android:inputType="textPersonName"
+                android:textColor="#ffff"
+                android:textColorHint="#ffff"
+                android:textSize="20sp" />
+
+
+            <EditText
+                android:id="@+id/dob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawablePadding="15dp"
+                android:hint="Date of Birth"
+                android:inputType="date"
+                android:textColor="#ffff"
+                android:textColorHint="#ffff"
+                android:textSize="20sp" />
+
+
+            <EditText
+                android:id="@+id/age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawablePadding="15dp"
+                android:hint="Age"
+                android:inputType="number"
+                android:maxLines="1"
+                android:textColor="#ffff"
+                android:textColorHint="#ffff"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Marital Status :"
+                android:textColor="#ffff"
+                android:textSize="20sp"
+                android:id="@+id/marital"/>
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_margin="15dp"
+                android:background="#ffff"
+                android:id="@+id/maritalspinner"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Blood Group :"
+                android:textColor="#ffff"
+                android:textSize="20sp"
+                android:id="@+id/grp"/>
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_margin="15dp"
+                android:background="#ffff"
+                android:id="@+id/bloodspinner"/>
+
+
+            <EditText
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawablePadding="15dp"
+                android:hint="Address"
+                android:inputType="textPostalAddress"
+                android:textColor="#ffff"
+                android:textColorHint="#ffff"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="State :"
+                android:textColor="#ffff"
+                android:textSize="20sp"
+                android:id="@+id/state"/>
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_margin="15dp"
+                android:id="@+id/statespinner"
+                android:background="#ffff">
+
+            </Spinner>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginBottom="25dp">
+
+                <Button
+                    android:id="@+id/reg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="30dp"
+                    android:background="@drawable/button1"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:text="Register"
+                    android:textColor="#fff"
+                    android:textSize="20sp" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
