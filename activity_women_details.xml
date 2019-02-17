@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".WomenDetails"
+android:background="@drawable/background">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/lmp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:drawablePadding="15dp"
+            android:hint=" Last Mensuration Period (LMP)"
+            android:inputType="date"
+            android:textColor="#ffff"
+            android:textColorHint="#ffff"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:drawablePadding="15dp"
+            android:hint=" Estimated Date of Delivery (EDD) "
+            android:inputType="date"
+            android:textColor="#ffff"
+            android:textColorHint="#ffff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/lastname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:drawablePadding="15dp"
+            android:hint=" Pregnant with Twins "
+            android:inputType="textPersonName"
+            android:textColor="#ffff"
+            android:textColorHint="#ffff"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="  Yes"
+                android:textColor="#ffff"
+                android:textSize="15sp"
+                android:layout_margin="10dp"
+                android:id="@+id/yes"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  No"
+                android:textColor="#ffff"
+                android:textSize="15sp"
+                android:layout_margin="10dp"
+                android:id="@+id/no"/>
+
+        </RadioGroup>
+
+
+        <EditText
+            android:id="@+id/height"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:drawablePadding="15dp"
+            android:hint="Pre-Pregnancy Height (cm)"
+            android:inputType="number"
+            android:textColor="#ffff"
+            android:textColorHint="#ffff"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/weight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:drawablePadding="15dp"
+            android:hint="Pre-Pregnancy Weight (kg)"
+            android:inputType="number"
+            android:textColor="#ffff"
+            android:textColorHint="#ffff"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Pre-Pregnancy BMI :"
+                android:textColor="#ffff"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textColor="#ffff"
+                android:textSize="20sp"
+                android:id="@+id/preBMI"/>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Pre-Pregnancy BMI Category :"
+                android:textColor="#ffff"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textColor="#ffff"
+                android:textSize="20sp"
+                android:id="@+id/BMIcat"/>
+
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginBottom="25dp">
+
+            <Button
+                android:id="@+id/submitdet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/button1"
+                android:foreground="?attr/selectableItemBackground"
+                android:text="Submit"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+</LinearLayout>
